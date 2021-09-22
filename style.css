@@ -88,8 +88,12 @@ a:hover{
     .menu {
         margin: auto;
         width: 40%;
-        
        
+    }
+
+    .navbar{
+        position: fixed;
+        width: 100%;
     }
     
     /* //GRID */
