@@ -35,11 +35,9 @@ a:hover{
     
      a:hover{
        color: #E4002C;
-       
       }
-    
-        body{ font-family:'sans-serif';
       
+        body{ font-family:'sans-serif';
     }
 
     /* GRID */
@@ -48,6 +46,7 @@ a:hover{
         grid-template-columns: 10vw auto 10vw;
         grid-gap: 0.1em;
     }
+    /* //GRID */
 
     header, footer {
         grid-column-start: 1;
@@ -118,7 +117,6 @@ a:hover{
         100% {
           background-position: 500%;
         }
-    /* //GRID */
  
    
 
