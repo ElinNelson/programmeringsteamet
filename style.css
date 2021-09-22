@@ -30,7 +30,7 @@ a:hover{
 }
 
 
-<style>     a{
+ a{
     text-decoration: none;
     color: #000000;
 		}
@@ -92,9 +92,6 @@ a:hover{
        
     }
     
-  </style>
-
-  <style>
     .grid {
         display: grid;
         grid-template-columns: 15vw auto 15vw;
@@ -133,7 +130,6 @@ a:hover{
         justify-content: center;
         height: 25vh;
     }
-    }
 
     aside, article{
         padding: 1vw;
@@ -166,5 +162,3 @@ a:hover{
       
     }
    
-   
-</style>
