@@ -1,0 +1,170 @@
+header {
+    background-color:#C4C4C4;
+}
+
+
+.LogoImg img{
+    width: 200px;
+    height: auto;
+}
+.MainImg img{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+a{
+    color: #000000;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #E4002C;
+}
+
+
+<style>     a{
+    text-decoration: none;
+    color: #000000;
+		}
+    
+     a:hover{
+       color: #E4002C;
+       
+      }
+    
+        body{ font-family:'sans-serif';
+      
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 10vw auto 10vw;
+        grid-gap: 0.1em;
+    }
+
+    header, footer {
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+
+    @media all and (max-width: 350px) {
+    aside, article {
+            grid-column-start: 1;
+            grid-column-end: span 3;
+        }
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header, aside , footer {
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+    }
+
+
+    aside, article{
+        padding: 1vw;
+    }
+    .sidebar-left{
+        background-color: white;
+    }
+    .sidebar-right{
+        background-color: white;
+    }
+
+    .menu {
+        margin: auto;
+        width: 40%;
+        
+       
+    }
+    
+  </style>
+
+  <style>
+    .grid {
+        display: grid;
+        grid-template-columns: 15vw auto 15vw;
+        grid-gap: 0.1em;
+    }
+
+    header, footer {
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+
+    @media all and (max-width: 350px) {
+    aside, article {
+            grid-column-start: 1;
+            grid-column-end: span 3;
+        }
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header, aside, footer {
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+    }
+
+    article {
+        background: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 25vh;
+    }
+    }
+
+    aside, article{
+        padding: 1vw;
+    }
+    .sidebar-left{
+        background-color: white;
+    }
+    .sidebar-right{
+        background-color: white;
+    }
+
+    .menu {
+        margin: auto;
+        width: 40%;
+        
+    }
+      
+    a{
+    	text-decoration: none;
+    	color: #000000;
+        
+		}
+
+    a:hover{
+       color: #E4002C;
+      }
+   
+      
+    body{ font-family:'sans-serif';
+      
+    }
+   
+   
+</style>
