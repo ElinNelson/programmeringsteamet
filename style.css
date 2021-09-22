@@ -1,3 +1,9 @@
+.textflow {
+    width: 500px;
+    height: 500px;
+    border-style: 4px solid grey;
+}
+
 header {
     background-color:#C4C4C4;
 }
@@ -46,7 +52,6 @@ a:hover{
         grid-template-columns: 10vw auto 10vw;
         grid-gap: 0.1em;
     }
-    /* //GRID */
 
     header, footer {
         grid-column-start: 1;
@@ -87,15 +92,15 @@ a:hover{
     .menu {
         margin: auto;
         width: 40%;
-       
     }
+    /* /GRID */
 
     .navbar{
         position: fixed;
         width: 100%;
     }
     
-    p {
+    .flash {
         position: relative;
         font-family: sans-serif;
         text-transform: uppercase;
@@ -118,7 +123,7 @@ a:hover{
           background-position: 500%;
         }
  
-   
+
 
    
    
