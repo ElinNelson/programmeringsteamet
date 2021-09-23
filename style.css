@@ -19,7 +19,7 @@ nav {
     padding: 10px;
 }
 .foodmenu {
-    width: 10%;
+    width: 60%;
     margin: auto;
    
 }
@@ -67,9 +67,15 @@ nav {
         100% {
           background-position: 500%;
         } 
+      }
+
+    table{ 
+        width:100%;
+        border: 1px; border-collapse:collapse; text-align: left;
+    }
 
 
 
 
-   
-   
+
+
